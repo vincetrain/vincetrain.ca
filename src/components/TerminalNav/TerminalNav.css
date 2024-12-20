@@ -1,0 +1,23 @@
+.terminal {
+  @apply transition-all duration-100 bg-warm-sepia text-white p-10 rounded-lg m-4 border-solid border-2 
+  border-muted-orange hover:shadow-[0px_0px_5px_-2px_rgba(255,255,255,1)]
+}
+
+.terminal .line {
+  @apply sm:text-xs md:text-3xl
+}
+
+.terminal .line .result li {
+  @apply text-orange
+}
+.terminal .line .result li a {
+  @apply underline text-orange hover:text-golden-sepia
+}
+
+.terminal .line .action .userhost {
+  @apply text-green
+}
+
+.terminal .line .action .dir {
+  @apply text-blue
+}

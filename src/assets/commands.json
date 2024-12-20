@@ -1,0 +1,48 @@
+{
+  "isRoot": true,
+  "lines": [
+    {
+      "user": "root",
+      "host": "vincetrain.ca",
+      "dir": "/home",
+      "command": "ls",
+      "result": [
+        {
+          "item": "vincent"
+        }
+      ]
+    },
+    {
+      "user": "root",
+      "host": "vincetrain.ca",
+      "dir": "/home",
+      "command": "cd vincent",
+      "result": []
+    },
+    {
+      "isNav": true,
+      "user": "root",
+      "host": "vincetrain.ca",
+      "dir": "/home/vincent",
+      "command": "ls",
+      "result": [
+        {
+          "item": "about",
+          "href": "about"
+        },
+        {
+          "item": "projects",
+          "href": "projects"
+        },
+        {
+          "item": "resume",
+          "href": "resume"
+        },
+        {
+          "item": "contact",
+          "href": "contact"
+        }
+      ]
+    }
+  ]
+}
