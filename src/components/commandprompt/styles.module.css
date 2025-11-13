@@ -1,0 +1,24 @@
+@keyframes blinking {
+    50% {
+        opacity: 0;
+    }
+}
+
+.text {
+    color: white;
+    width: fit-content;
+}
+
+.cursor {
+    background-color: white;
+    border: solid 1px black;
+    color: white;
+}
+
+.cursor--idle {
+    animation: blinking step-end 1s infinite;
+}
+
+.cursor--none {
+    display: none;
+}
