@@ -1,11 +1,11 @@
-import CommandPrompt from '@/components/commandprompt/commandprompt';
+import TerminalCommand from '@/components/terminalcommand/terminalcommand';
 import Layout from '@/layouts/layout';
 
 export default function Page() {
     return (
         <Layout>
             <div className=''>
-                <CommandPrompt command='whoami' output='vincent' enterDelay={0.2} cps={35} />
+                <TerminalCommand command='this is a test of the typing feature in the "command prompt" component' commandDelay={2} output='vincent' outputDelay={1} cps={35} />
             </div>
         </Layout>
     );

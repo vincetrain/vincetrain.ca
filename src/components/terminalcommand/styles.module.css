@@ -4,7 +4,8 @@
     }
 }
 
-.text {
+.container {
+    display: inline;
     color: white;
     width: fit-content;
 }

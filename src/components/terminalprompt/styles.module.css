@@ -1,0 +1,9 @@
+.container {
+    width: fit-content;
+}
+
+.prompt {
+    display: inline;
+    color: white;
+    width: fit-content;
+}
