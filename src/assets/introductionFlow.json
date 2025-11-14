@@ -1,0 +1,37 @@
+[
+    {
+        "username": "vincent",
+        "hostname": "vincetrain.ca",
+        "directory": "~",
+        "command": "ls",
+        "output": [
+            {
+                "text": "Desktop",
+                "type": "directory",
+                "clickable": false
+            },
+            {
+                "text": "Documents",
+                "type": "directory",
+                "clickable": false
+            },
+            {
+                "text": "portfolio.sh",
+                "type": "executable",
+                "clickable": false
+            }
+        ],
+        "command-delay": 0.5,
+        "output-delay": 0.2,
+        "cps": 35
+    },
+        {
+        "username": "vincent",
+        "hostname": "vincetrain.ca",
+        "directory": "~",
+        "command": "./portfolio.sh",
+        "command-delay": 0.5,
+        "output-delay": 0.2,
+        "cps": 35
+    }
+]
