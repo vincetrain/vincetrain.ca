@@ -1,0 +1,24 @@
+.container {
+    display: inline;
+    width: fit-content;
+}
+
+.username {
+    color: lightgreen;
+}
+
+.delimiter {
+    color: lightgreen;
+}
+
+.hostname {
+    color: lightgreen;
+}
+
+.directory {
+    color:lightblue;
+}
+
+.shellsymbol {
+    color: lightblue;
+}

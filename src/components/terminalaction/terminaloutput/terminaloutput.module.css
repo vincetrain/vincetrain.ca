@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    gap: 2em;
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.item {
+    padding: 0;
+}
+
+.item--directory {
+    color: lightblue;
+}
+
+.item--executable {
+    color: lightgreen;
+}
