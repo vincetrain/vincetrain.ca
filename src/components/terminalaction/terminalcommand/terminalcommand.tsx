@@ -30,7 +30,7 @@ export default function TerminalCommand({command, commandDelay, cps, outputDelay
     }
 
     useEffect(() => {
-        setTimeout(() => {typeNextCharacter()}, currentIndex == 0 ? (commandDelay||0) * 1000 : 0)
+        setTimeout(() => {typeNextCharacter()}, currentIndex == 0 ? (commandDelay||0) * 1000 : 0);
     }, [currentIndex]);
 
     const typed = command.substring(0, currentIndex);
